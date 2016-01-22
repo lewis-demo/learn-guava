@@ -8,7 +8,7 @@ import org.junit.rules.ExpectedException;
 import com.google.common.base.Strings;
 
 /**
- * Test for Strings
+ * Test for Strings.
  * 
  * @author lewis007
  * @since 1.0
@@ -16,7 +16,7 @@ import com.google.common.base.Strings;
  */
 public class StringsTest {
 	@Rule
-	public ExpectedException expected = ExpectedException.none();
+	public ExpectedException exception = ExpectedException.none();
 
 	@Test
 	public void nullToEmpty() {
@@ -73,7 +73,7 @@ public class StringsTest {
 
 	@Test
 	public void padStartRule() {
-		expected.expect(NullPointerException.class);
+		exception.expect(NullPointerException.class);
 		Strings.padStart(null, 5, '-');
 	}
 
@@ -101,7 +101,41 @@ public class StringsTest {
 
 	@Test
 	public void padEndRule() {
-		expected.expect(NullPointerException.class);
+		exception.expect(NullPointerException.class);
 		Strings.padEnd(null, 5, '-');
+	}
+
+	@Test
+	public void repeat() {
+		Assert.assertEquals(Strings.repeat("test,", 6), "test,test,test,test,test,test,");
+
+		Assert.assertEquals(Strings.repeat("", 6), "");
+		Assert.assertEquals(Strings.repeat("test,", 0), "");
+	}
+
+	@Test(expected = NullPointerException.class)
+	public void repeatException() {
+		Strings.repeat(null, 6);
+		Strings.repeat(null, -1);
+	}
+
+	@Test
+	public void repeatRule() {
+		exception.expect(IllegalArgumentException.class);
+		Strings.repeat("test,", -1);
+	}
+
+	@Test
+	public void commonPrefix() {
+		Assert.assertEquals(Strings.commonPrefix("sfa-abcdefg", "sfa-hijklmn"), "sfa-");
+
+		Assert.assertEquals(Strings.commonPrefix("x sfa-abcdefg", "- sfa-hijklmn"), "");
+	}
+
+	@Test
+	public void commonSuffix() {
+		Assert.assertEquals(Strings.commonSuffix("somebook.pdf", "others.pdf"), ".pdf");
+
+		Assert.assertEquals(Strings.commonSuffix("somebook.pdf -", "others.pdf +"), "");
 	}
 }
