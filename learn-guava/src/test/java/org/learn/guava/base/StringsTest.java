@@ -1,4 +1,4 @@
-package org.learn.guava.utils;
+package org.learn.guava.base;
 
 import org.junit.Assert;
 import org.junit.Rule;
