@@ -30,13 +30,6 @@
 			<version>${guava.version}</version>
 		</dependency>
 
-		<!-- Log4j -->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
-		</dependency>
-
 		<!-- jUnit -->
 		<dependency>
 			<groupId>junit</groupId>
