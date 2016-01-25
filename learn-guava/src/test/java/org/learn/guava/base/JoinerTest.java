@@ -11,7 +11,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
 /**
- * Test for Joiner
+ * Test for Joiner.
  * 
  * @author lewis007
  * @since 1.0
@@ -56,6 +56,7 @@ public class JoinerTest {
 	@Test
 	public void mapJoiner() {
 		String expectedString = "Washington D.C=Redskins#New York City=Giants#Philadelphia=Eagles#Dallas=Cowboys";
+
 		Map<String, String> testMap = Maps.newLinkedHashMap();
 		testMap.put("Washington D.C", "Redskins");
 		testMap.put("New York City", "Giants");
