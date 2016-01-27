@@ -5,27 +5,19 @@
 
 	<parent>
 		<groupId>org.learn</groupId>
-		<artifactId>learn</artifactId>
+		<artifactId>learn-cxf</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>learn-guava</artifactId>
+	<artifactId>learn-cxf-soap</artifactId>
 	<packaging>jar</packaging>
-	<name>Learn Google Guava</name>
+	<name>Learn CXF SOAP</name>
 
 	<properties>
-		<guava.version>19.0</guava.version>
 		<junit.version>4.12</junit.version>
 	</properties>
 
 	<dependencies>
-		<!-- Guava -->
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>${guava.version}</version>
-		</dependency>
-
 		<!-- jUnit -->
 		<dependency>
 			<groupId>junit</groupId>

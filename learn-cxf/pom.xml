@@ -9,23 +9,19 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>learn-guava</artifactId>
-	<packaging>jar</packaging>
-	<name>Learn Google Guava</name>
+	<artifactId>learn-cxf</artifactId>
+	<packaging>pom</packaging>
+	<name>Learn CXF</name>
 
 	<properties>
-		<guava.version>19.0</guava.version>
 		<junit.version>4.12</junit.version>
 	</properties>
 
-	<dependencies>
-		<!-- Guava -->
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>${guava.version}</version>
-		</dependency>
+	<modules>
+		<module>learn-cxf-soap</module>
+	</modules>
 
+	<dependencies>
 		<!-- jUnit -->
 		<dependency>
 			<groupId>junit</groupId>
