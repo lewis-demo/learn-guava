@@ -1,4 +1,4 @@
-package org.learn.cxf.soap;
+package org.learn.soap.java;
 
 import java.net.URL;
 
@@ -10,8 +10,8 @@ public class DynamicClient {
 	public static void main(String[] args) {
 		try {
 			URL wsdl = new URL("http://localhost:8080/ws/soap/hello?wsdl");
-			QName serviceName = new QName("http://soap.cxf.learn.org/", "HelloService");
-			QName portName = new QName("http://soap.cxf.learn.org/", "HelloServicePort");
+			QName serviceName = new QName("http://java.soap.learn.org/", "HelloService");
+			QName portName = new QName("http://java.soap.learn.org/", "HelloServicePort");
 			Service service = Service.create(wsdl, serviceName);
 
 			HelloService helloService = service.getPort(portName, HelloService.class);
@@ -20,7 +20,6 @@ public class DynamicClient {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 
 }

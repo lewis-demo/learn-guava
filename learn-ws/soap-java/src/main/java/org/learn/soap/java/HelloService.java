@@ -1,4 +1,4 @@
-package org.learn.cxf.soap;
+package org.learn.soap.java;
 
 import javax.jws.WebService;
 

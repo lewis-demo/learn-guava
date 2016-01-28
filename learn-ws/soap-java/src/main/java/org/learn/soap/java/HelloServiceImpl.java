@@ -1,11 +1,11 @@
-package org.learn.cxf.soap;
+package org.learn.soap.java;
 
 import javax.jws.WebService;
 
 @WebService(
 	serviceName = "HelloService",
 	portName = "HelloServicePort",
-	endpointInterface = "org.learn.cxf.soap.HelloService"
+	endpointInterface = "org.learn.soap.java.HelloService"
 )
 public class HelloServiceImpl implements HelloService {
 
