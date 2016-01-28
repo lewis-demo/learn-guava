@@ -11,7 +11,7 @@ public class HelloServiceImpl implements HelloService {
 
 	@Override
 	public String say(String name) {
-		return "Hello " + name;
+		return "hello " + name;
 	}
 
 }
