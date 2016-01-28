@@ -14,9 +14,11 @@
 	<name>Learn Web Service</name>
 
 	<properties>
+		<cxf.version>3.1.4</cxf.version>
 	</properties>
 
 	<modules>
 		<module>soap-java</module>
+		<module>soap-cxf</module>
 	</modules>
 </project>

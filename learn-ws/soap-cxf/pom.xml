@@ -9,12 +9,11 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>soap-java</artifactId>
+	<artifactId>soap-cxf</artifactId>
 	<packaging>jar</packaging>
-	<name>Learn Web Service: SOAP ()Java Base)</name>
+	<name>Learn Web Service: SOAP (Apache CXF)</name>
 
 	<dependencies>
-		<!-- jUnit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
