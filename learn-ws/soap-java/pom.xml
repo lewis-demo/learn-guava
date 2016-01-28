@@ -5,16 +5,16 @@
 
 	<parent>
 		<groupId>org.learn</groupId>
-		<artifactId>learn-cxf</artifactId>
+		<artifactId>learn-ws</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>learn-cxf-soap</artifactId>
+	<artifactId>soap-java</artifactId>
 	<packaging>jar</packaging>
-	<name>Learn CXF SOAP</name>
+	<name>Learn Web Service: Java Base SOAP</name>
 
 	<properties>
-		<junit.version>4.12</junit.version>
+<!-- 		<junit.version>4.12</junit.version> -->
 	</properties>
 
 	<dependencies>

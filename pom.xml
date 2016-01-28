@@ -15,11 +15,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<junit.version>4.12</junit.version>
 	</properties>
 
 	<modules>
 		<module>learn-guava</module>
 		<module>learn-log4j</module>
-		<module>learn-cxf</module>
+		<module>learn-ws</module>
 	</modules>
 </project>

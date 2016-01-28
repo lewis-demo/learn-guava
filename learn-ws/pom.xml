@@ -9,25 +9,14 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>learn-cxf</artifactId>
+	<artifactId>learn-ws</artifactId>
 	<packaging>pom</packaging>
-	<name>Learn CXF</name>
+	<name>Learn Web Service</name>
 
 	<properties>
-		<junit.version>4.12</junit.version>
 	</properties>
 
 	<modules>
-		<module>learn-cxf-soap</module>
+		<module>soap-java</module>
 	</modules>
-
-	<dependencies>
-		<!-- jUnit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>${junit.version}</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
 </project>
