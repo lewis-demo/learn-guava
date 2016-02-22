@@ -11,7 +11,7 @@
 
 	<artifactId>soap-cxf</artifactId>
 	<packaging>jar</packaging>
-	<name>Learn Web Service: SOAP (Apache CXF)</name>
+	<name>Learn Web Service: SOAP (Base on Apache CXF)</name>
 
 	<dependencies>
 		<dependency>
