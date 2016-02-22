@@ -14,7 +14,7 @@
 	<name>Learn Web Service</name>
 
 	<properties>
-		<cxf.version>3.1.4</cxf.version>
+		<cxf.version>3.1.5</cxf.version>
 	</properties>
 
 	<modules>
