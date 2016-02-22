@@ -32,6 +32,7 @@
   * `spring-cxf-jaxws-endpoint.xml` 推荐使用
   * `spring-cxf-simple-server.xml`
 
+资源访问地址：
  * URL: http://localhost:8080/soap-spring-cxf/service
  * WSDL: http://localhost:8080/soap-spring-cxf/service/soap/hello?wsdl
 
