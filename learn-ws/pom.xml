@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -15,10 +15,12 @@
 
 	<properties>
 		<cxf.version>3.1.5</cxf.version>
+		<spring.version>4.2.4.RELEASE</spring.version>
 	</properties>
 
 	<modules>
 		<module>soap-java</module>
 		<module>soap-cxf</module>
+		<module>soap-spring-cxf</module>
 	</modules>
 </project>
