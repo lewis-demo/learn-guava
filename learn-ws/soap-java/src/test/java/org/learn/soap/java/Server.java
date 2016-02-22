@@ -3,7 +3,7 @@ package org.learn.soap.java;
 import javax.xml.ws.Endpoint;
 
 /**
- * 通过Java发布WS
+ * 使用JDK提供的工具{@link javax.xml.ws.Endpoint}发布WS。
  * 
  * @author lewis007
  * @since 1.0
@@ -11,7 +11,7 @@ import javax.xml.ws.Endpoint;
 public class Server {
 
 	/**
-	 * 发布WS，WS地址：http://localhost:8080/ws/soap/hello?wsdl
+	 * WS地址：http://localhost:8080/ws/soap/hello?wsdl
 	 * 
 	 * @param args
 	 */
