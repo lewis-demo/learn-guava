@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Client {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring-client2.xml");
 

@@ -7,6 +7,6 @@
        http://cxf.apache.org/schemas/jaxws.xsd">
 
 	<jaxws:client id="helloService" serviceClass="org.learn.soap.spring.cxf.HelloService"
-		address="http://localhost:8080/soap-spring-cxf/service/soap/hello" />
+		address="http://localhost:8080/soap-spring-cxf/ws/soap/hello" />
 
 </beans>

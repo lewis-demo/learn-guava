@@ -20,7 +20,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>cxf</servlet-name>
-		<url-pattern>/service/*</url-pattern>
+		<url-pattern>/ws/*</url-pattern>
 	</servlet-mapping>
 
 </web-app>

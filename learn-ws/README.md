@@ -46,5 +46,5 @@
  * `spring-client2.xml`: 使用jaxws:client，推荐使用
 
 资源访问地址：
- * [http://localhost:8080/soap-spring-cxf/service](http://localhost:8080/soap-spring-cxf/service "控制台")
- * [http://localhost:8080/soap-spring-cxf/service/soap/hello?wsdl](http://localhost:8080/soap-spring-cxf/service/soap/hello?wsdl "WSDL")
+ * [http://localhost:8080/soap-spring-cxf/ws](http://localhost:8080/soap-spring-cxf/ws "控制台")
+ * [http://localhost:8080/soap-spring-cxf/ws/soap/hello?wsdl](http://localhost:8080/soap-spring-cxf/ws/soap/hello?wsdl "WSDL")
