@@ -7,7 +7,7 @@ public class Client {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("spring-client2.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring-client-3.xml");
 
 		HelloService helloService = context.getBean("helloService", HelloService.class);
 		String result = helloService.say("world");

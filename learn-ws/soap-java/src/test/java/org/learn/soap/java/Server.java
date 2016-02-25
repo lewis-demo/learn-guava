@@ -20,7 +20,7 @@ public class Server {
 		HelloService helloService = new HelloServiceImpl();
 
 		Endpoint.publish(address, helloService);
-		System.out.println("ws is published");
+		System.out.println("soap ws is published");
 	}
 
 }

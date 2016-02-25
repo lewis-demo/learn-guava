@@ -8,6 +8,6 @@
 
 	<context:component-scan base-package="org.learn.soap.spring.cxf" />
 
-	<import resource="spring-cxf-jaxws-endpoint.xml" />
+	<import resource="spring-cxf-bus-endpoint-interceptor.xml" />
 
 </beans>
