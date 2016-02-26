@@ -14,14 +14,19 @@
 	<name>Learn Web Service</name>
 
 	<properties>
-		<cxf.version>3.1.5</cxf.version>
 		<spring.version>4.2.4.RELEASE</spring.version>
+		<cxf.version>3.1.5</cxf.version>
+		<jackson.version>2.7.1</jackson.version>
 	</properties>
 
 	<modules>
+		<!-- SOAP -->
 		<module>soap-java</module>
 		<module>soap-cxf</module>
 		<module>soap-spring-cxf</module>
 		<module>soap-spring-cxf-wss4j</module>
+
+		<!-- REFTful -->
+		<module>rest-cxf</module>
 	</modules>
 </project>
