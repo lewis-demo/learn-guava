@@ -13,17 +13,25 @@
 		address="/soap/hello" />
 
 	<cxf:bus>
+		<!-- 以下3种方式等效 -->
+
+		<!-- 方式1 -->
 		<cxf:features>
-			<bean class="org.apache.cxf.feature.LoggingFeature" />
+			<cxf:logging />
 		</cxf:features>
 
+		<!-- 方式2 -->
+		<!-- <cxf:features> -->
+		<!-- <bean class="org.apache.cxf.feature.LoggingFeature" /> -->
+		<!-- </cxf:features> -->
+
+		<!-- 方式3 -->
 		<!-- <cxf:inInterceptors> -->
 		<!-- <bean class="org.apache.cxf.interceptor.LoggingInInterceptor" /> -->
 		<!-- </cxf:inInterceptors> -->
 		<!-- <cxf:outInterceptors> -->
 		<!-- <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor" /> -->
 		<!-- </cxf:outInterceptors> -->
-
 	</cxf:bus>
 
 </beans>
