@@ -22,5 +22,6 @@
 		<module>soap-java</module>
 		<module>soap-cxf</module>
 		<module>soap-spring-cxf</module>
+		<module>soap-spring-cxf-wss4j</module>
 	</modules>
 </project>
