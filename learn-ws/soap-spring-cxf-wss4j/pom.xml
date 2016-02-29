@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>soap-spring-cxf-wss4j</artifactId>
-	<name>Learn Web Service: SOAP (Base on Apache CXF <![CDATA[&]]> Spring <![CDATA[&]]> WSS4J)</name>
+	<name>Learn Web Service: SOAP (CXF <![CDATA[&]]> Spring <![CDATA[&]]> WSS4J)</name>
 	<packaging>war</packaging>
 
 	<dependencies>

@@ -11,7 +11,7 @@
 
 	<artifactId>soap-java</artifactId>
 	<packaging>jar</packaging>
-	<name>Learn Web Service: SOAP (Base on Java)</name>
+	<name>Learn Web Service: SOAP (JDK)</name>
 
 	<dependencies>
 		<!-- jUnit -->

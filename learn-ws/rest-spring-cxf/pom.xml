@@ -9,24 +9,11 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>soap-cxf</artifactId>
-	<packaging>jar</packaging>
-	<name>Learn Web Service: SOAP (CXF)</name>
+	<artifactId>rest-spring-cxf</artifactId>
+	<packaging>war</packaging>
+	<name>Learn Web Service: RESTful (CXF <![CDATA[&]]> Spring)</name>
 
 	<dependencies>
-		<!-- CXF -->
-		<dependency>
-			<groupId>org.apache.cxf</groupId>
-			<artifactId>cxf-rt-frontend-jaxws</artifactId>
-			<version>${cxf.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.cxf</groupId>
-			<artifactId>cxf-rt-transports-http-jetty</artifactId>
-			<version>${cxf.version}</version>
-		</dependency>
-
-		<!-- jUnit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -34,4 +21,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<finalName>rest-spring-cxf</finalName>
+	</build>
 </project>

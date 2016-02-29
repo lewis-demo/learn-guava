@@ -28,5 +28,6 @@
 
 		<!-- REFTful -->
 		<module>rest-cxf</module>
+		<module>rest-spring-cxf</module>
 	</modules>
 </project>

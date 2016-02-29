@@ -11,7 +11,7 @@
 
 	<artifactId>rest-cxf</artifactId>
 	<packaging>jar</packaging>
-	<name>Learn Web Service: SOAP (Base on Apache CXF)</name>
+	<name>Learn Web Service: RESTful (CXF)</name>
 
 	<dependencies>
 		<!-- CXF -->
