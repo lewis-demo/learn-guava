@@ -25,6 +25,14 @@
 			<artifactId>cxf-rt-transports-http-jetty</artifactId>
 			<version>${cxf.version}</version>
 		</dependency>
+
+		<!-- CXF REST Client -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-rs-client</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+
 		<!-- Jackson -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.jaxrs</groupId>
