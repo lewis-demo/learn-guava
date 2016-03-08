@@ -8,7 +8,7 @@
 	<version>0.1.0</version>
 	<packaging>jar</packaging>
 
-	<name>qs-guava</name>
+	<name>Quick Start for Google Guava</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
